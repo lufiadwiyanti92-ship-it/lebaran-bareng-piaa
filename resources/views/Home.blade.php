@@ -39,3 +39,5 @@
     });
 </script>
 @endpush
+<h1>WEB BERHASIL 🎉</h1>
+<p>Laravel kamu sudah jalan di Railway 🚀</p>
