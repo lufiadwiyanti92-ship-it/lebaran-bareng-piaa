@@ -39,5 +39,27 @@
     });
 </script>
 @endpush
-<h1>WEB BERHASIL 🎉</h1>
-<p>Laravel kamu sudah jalan di Railway 🚀</p>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lebaran Bareng Piaa</title>
+</head>
+
+<body>
+
+    <h1>🎉 Lebaran Bareng Piaa 🎉</h1>
+
+    <h2>Profile</h2>
+    <pre>{{ print_r($profile, true) }}</pre>
+
+    <h2>Moments</h2>
+    <pre>{{ print_r($moments, true) }}</pre>
+
+    <h2>Family Tree</h2>
+    <pre>{{ print_r($familyTree, true) }}</pre>
+
+</body>
+
+</html>
