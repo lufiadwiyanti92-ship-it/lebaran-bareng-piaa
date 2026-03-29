@@ -1,14 +1,13 @@
-@extends('Layouts.app')
+@extends('layouts.app')
 
 @section('title', 'Beranda - Lebaran Bareng Piaa')
 
 @section('content')
 
-@include('Partials.Sections.Hero')
-@include('Partials.Sections.Perkenalan')
-@include('Partials.Sections.Momen')
-@include('Partials.Sections.Silsilah')
-
+@include('partials.sections.hero')
+@include('partials.sections.perkenalan')
+@include('partials.sections.momen')
+@include('partials.sections.silsilah')
 @endsection
 
 @push('scripts')
