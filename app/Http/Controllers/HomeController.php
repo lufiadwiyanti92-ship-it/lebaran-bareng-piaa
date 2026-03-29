@@ -62,6 +62,6 @@ class HomeController extends Controller
             ]
         ];
 
-        return view('home', compact('profile', 'moments', 'familyTree'));
+        return view('Home', compact('profile', 'moments', 'familyTree'));
     }
 }
